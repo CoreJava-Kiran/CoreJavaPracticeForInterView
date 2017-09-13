@@ -1,4 +1,4 @@
-package com.arraylist.sorting.example.using.compartor.of.custom.object;
+package com.arraylist.sorting.custom.object.using.compartor;
 
 import java.util.ArrayList;
 import java.util.Collections;
