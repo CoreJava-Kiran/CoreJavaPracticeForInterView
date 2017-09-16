@@ -1,6 +1,6 @@
 package com.compare.two.java.objects;
 
-public class Business {
+public class Business1 {
 
 	private String busName;
 
@@ -8,11 +8,11 @@ public class Business {
 
 	private String busEin;
 
-	public Business() {
+	public Business1() {
 		super();
 	}
 
-	public Business(String busName, int busId, String busEin) {
+	public Business1(String busName, int busId, String busEin) {
 		this.busName = busName;
 		this.busId = busId;
 		this.busEin = busEin;
@@ -60,7 +60,7 @@ public class Business {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Business other = (Business) obj;
+		Business1 other = (Business1) obj;
 		if (busEin == null) {
 			if (other.busEin != null)
 				return false;
