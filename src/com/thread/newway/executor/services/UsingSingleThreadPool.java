@@ -11,13 +11,20 @@ public class UsingSingleThreadPool {
 		//Only one Thread - this is one by one`- sequential execution
 		ExecutorService es = Executors.newSingleThreadExecutor();
 		
-		es.execute(new LoopTaskA());
-		es.execute(new LoopTaskA());
-		es.execute(new LoopTaskA());
+		LoopTaskA l1 = new LoopTaskA();
+		LoopTaskA l2 = new LoopTaskA();
+		LoopTaskA l3 = new LoopTaskA();
+		LoopTaskA l4 = new LoopTaskA();
+		LoopTaskA l5 = new LoopTaskA();
+		LoopTaskA l6 = new LoopTaskA();
 		
-		es.execute(new LoopTaskA());
-		es.execute(new LoopTaskA());
-		es.execute(new LoopTaskA());
+		es.execute(l1);
+		es.execute(l2);
+		es.execute(l3);
+		
+		es.execute(l4);
+		es.execute(l5);
+		es.execute(l6);
 		
 		es.shutdown();
 
