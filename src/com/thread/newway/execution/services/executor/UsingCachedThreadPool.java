@@ -1,4 +1,4 @@
-package com.thread.newway.executor.services;
+package com.thread.newway.execution.services.executor;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
