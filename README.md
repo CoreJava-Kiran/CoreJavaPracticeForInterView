@@ -19,7 +19,7 @@ all desgin patterns https://www.youtube.com/watch?v=tDxnyop48mY&list=PLsyeobzWxl
 com.design.pattern.singleton    https://www.youtube.com/watch?v=C_Cvpqyyu8c
 
 ********************************************
-
+com.hashmap.iterate.and.display    https://www.youtube.com/watch?v=z5tZ0Zb5rJQ
 
 ********************************************
 
