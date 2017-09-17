@@ -1,6 +1,6 @@
 package com.compare.two.java.objects;
 
-public class Business1 {
+class Business1 {
 
 	private String busName;
 
