@@ -1,6 +1,6 @@
 package com.design.pattern.factory;
 
-public interface OS {
+interface OS {
 
 	void printSpecification();
 }
